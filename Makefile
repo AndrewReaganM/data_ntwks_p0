@@ -7,3 +7,6 @@ server: server.c
 
 client: client.c
 	$(CC) -o client client.c
+
+clean:
+	rm -f server client
